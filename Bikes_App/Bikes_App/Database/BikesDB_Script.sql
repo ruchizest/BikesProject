@@ -27,7 +27,7 @@ VALUES
 ('Rapid Racer', 'Bianchi', 'Road', 1500.00, 2100.00, 4, 7.00);
 
 
-CREATE TABLE Salesperson (
+CREATE TABLE Salespersons (
     SalespersonID INT PRIMARY KEY IDENTITY(1,1),
     FirstName NVARCHAR(50) NOT NULL,
     LastName NVARCHAR(50) NOT NULL,
@@ -40,15 +40,15 @@ CREATE TABLE Salesperson (
 );
 
 
-INSERT INTO Salesperson (FirstName, LastName, Address, Phone, StartDate, TerminationDate, Manager)
+INSERT INTO Salespersons (FirstName, LastName, Address, Phone, StartDate, TerminationDate, Manager)
 VALUES
-('John', 'Doe', '123 Elm Street, Springfield', '555-1234', '2020-01-15', NULL, 'Sarah Smith'),
-('Jane', 'Smith', '456 Oak Avenue, Riverdale', '555-5678', '2019-03-22', NULL, 'Michael Johnson'),
-('Emily', 'Brown', '789 Maple Lane, Centerville', '555-8765', '2021-06-10', NULL, 'Sarah Smith'),
-('Daniel', 'Wilson', '321 Pine Road, Lincoln', '555-4321', '2018-11-05', '2024-03-01', 'Michael Johnson'),
-('Chris', 'Taylor', '654 Cedar Boulevard, Shelbyville', '555-3456', '2022-08-19', NULL, 'Sarah Smith');
+('John', 'Doe', '123 Elm Street, Springfield', '555-1234', '2020-01-15', '9999-12-31', 'Sarah Smith'),
+('Jane', 'Smith', '456 Oak Avenue, Riverdale', '555-5678', '2019-03-22', '9999-12-31', 'Michael Johnson'),
+('Emily', 'Brown', '789 Maple Lane, Centerville', '555-8765', '2021-06-10', '9999-12-31', 'Sarah Smith'),
+('Daniel', 'Wilson', '321 Pine Road, Lincoln', '555-4321', '2018-11-05', '9999-12-31', 'Michael Johnson'),
+('Chris', 'Taylor', '654 Cedar Boulevard, Shelbyville', '555-3456', '2022-08-19', '9999-12-31', 'Sarah Smith');
 
-CREATE TABLE Customer (
+CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY IDENTITY(1,1), -- Auto-incremented primary key
     FirstName NVARCHAR(50) NOT NULL,
     LastName NVARCHAR(50) NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE Customer (
     CONSTRAINT UQ_CustomerNamePhone UNIQUE (FirstName, LastName, Phone)
 );
 
-INSERT INTO Customer (FirstName, LastName, Address, Phone, Email, StartDate)
+INSERT INTO Customers (FirstName, LastName, Address, Phone, Email, StartDate)
 VALUES
 ('Alice', 'Johnson', '101 Main Street, Springfield', '555-1010', 'alice.johnson@example.com', '2023-01-05'),
 ('Bob', 'Anderson', '202 Pine Street, Riverdale', '555-2020', 'bob.anderson@example.com', '2022-07-15'),

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agrdh\\source\\repos\\Bikes_App\\Bikes_App\\Bikes_App.csproj": {}
+    "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Bikes_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agrdh\\source\\repos\\Bikes_App\\Bikes_App\\Bikes_App.csproj": {
+    "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Bikes_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agrdh\\source\\repos\\Bikes_App\\Bikes_App\\Bikes_App.csproj",
+        "projectUniqueName": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Bikes_App.csproj",
         "projectName": "Bikes_App",
-        "projectPath": "C:\\Users\\agrdh\\source\\repos\\Bikes_App\\Bikes_App\\Bikes_App.csproj",
+        "projectPath": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Bikes_App.csproj",
         "packagesPath": "C:\\Users\\agrdh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agrdh\\source\\repos\\Bikes_App\\Bikes_App\\obj\\",
+        "outputPath": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

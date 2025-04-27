@@ -1,9 +1,6 @@
 ﻿using Bikes_App.Models;
 using Bikes_App.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using Bikes_App.Models;
-using Bikes_App.Repositories;
-using System;
 using Microsoft.EntityFrameworkCore;
 
 namespace ProductApp.Controllers
@@ -65,19 +62,5 @@ namespace ProductApp.Controllers
             await productContext.SaveChangesAsync();
             return NoContent();
         }
-
-       // private readonly ProductContext _context;
-
-        //public ProductsDBController(ProductContext context)
-        //{
-        //    _context = context;
-        //}
-
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
-        //{
-        //    var products = await _context.Products.ToListAsync();
-        //    return Ok(products);
-        //}
     }
 }

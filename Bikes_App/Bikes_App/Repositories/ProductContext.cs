@@ -1,5 +1,4 @@
 ﻿using Bikes_App.Models;
-using System;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bikes_App.Repositories

@@ -72,6 +72,12 @@
   margin-top: 20px;
 }
 
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
 /* Product List Styling */
 .product-list {
   margin: 20px;
@@ -157,4 +163,20 @@ button.cancel-btn {
 
 button.cancel-btn:hover {
   background-color: #c82333;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: flex-start; /* Aligns content to the left */
+  gap: 1rem; /* Adds space between dropdown and date inputs */
+}
+.filter label {
+  font-weight: bold;
+}
+.filter select,
+.filter input[type="date"] {
+  padding: 0.4rem;
+  font-size: 1rem;
 }

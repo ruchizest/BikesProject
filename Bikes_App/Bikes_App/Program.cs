@@ -1,5 +1,6 @@
 using System;
 using Bikes_App.Repositories;
+using Bikes_App.Services;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -7,8 +8,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<ProductContext>(options =>
-    //options.UseSqlServer(builder.Configuration.GetConnectionString("Server=localhost\\SQLEXPRESS;Database=Bikes_DB;Trusted_Connection=True;")));
     options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
+builder.Services.AddDbContext<SalespersonRepository>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
+builder.Services.AddDbContext<CustomerRepository>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
+builder.Services.AddDbContext<SalesRepository>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
+builder.Services.AddDbContext<SalesDetailsRepository>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
+
+builder.Services.AddScoped<SalesDetailsService>();
 
 // Add services to the container.
 

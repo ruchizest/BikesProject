@@ -10,6 +10,5 @@
         public decimal SalePrice { get; set; }
         public int QtyOnHand { get; set; }
         public decimal CommissionPercentage { get; set; }
-
     }
 }

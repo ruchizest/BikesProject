@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+lF9CXbhrYk=",
+  "dgSpecHash": "p3J/mPimvvs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\agrdh\\source\\repos\\Bikes_App\\Bikes_App\\Bikes_App.csproj",
+  "projectFilePath": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Bikes_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agrdh\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\agrdh\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
