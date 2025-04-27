@@ -1,0 +1,160 @@
+/* App.css */
+
+/* Basic styling for the app */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* App.css */
+
+/* Basic styling for the app */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the logo in the header */
+.App h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .logo {
+  width: 50px; /* Thumbnail size for the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between image and text */
+}
+
+
+/* Styling for the tabs navigation */
+.tabs {
+  display: flex;
+  justify-content: space-evenly; /* Distribute tabs evenly across the row */
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 10px;
+  border-radius: 4px;
+  flex: 1; /* Ensure buttons occupy equal width */
+  text-align: center; /* Ensure text is centered in the button */
+}
+
+/* Remove the right margin for the last tab */
+.tabs button:last-child {
+  margin-right: 0;
+}
+
+/* Style for active tab */
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Hover effect for tabs */
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+/* Styling for the tab content */
+.tab-content {
+  margin-top: 20px;
+}
+
+/* Product List Styling */
+.product-list {
+  margin: 20px;
+  text-align: left;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-list button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-list input {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+/* Styling for Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Space between table and other elements */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Input field styling within table */
+input[type="text"], input[type="number"] {
+  padding: 6px 12px;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+td input {
+  width: 100%; /* Ensure the inputs take the whole width of the table cell */
+}
+
+/* Button for updating */
+button.update-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button.update-btn:hover {
+  background-color: #218838;
+}
+
+button.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button.cancel-btn:hover {
+  background-color: #c82333;
+}
