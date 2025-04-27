@@ -58,5 +58,15 @@ namespace SalesApp.Controllers
             await _SalesRepository.SaveChangesAsync();
             return NoContent();
         }
+
+        // POST: api/Sales/
+        [HttpPost]
+        public async Task<IActionResult> CreateSale([FromBody] Sale sale)
+        {
+            await _SalesRepository.AddAsync(sale);
+            await _SalesRepository.SaveChangesAsync();
+
+            return Created();
+        }
     }
 }

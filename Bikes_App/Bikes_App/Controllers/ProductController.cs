@@ -9,21 +9,19 @@ namespace ProductApp.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly ProductRepository _productRepository;
 
-        private readonly ProductContext productContext;
+        private readonly ProductRepository productRepository;
 
-        public ProductController(ProductContext productContext)
+        public ProductController(ProductRepository productRepository)
         {
-            _productRepository = new ProductRepository();
-            this.productContext = productContext;
+            this.productRepository = productRepository;
         }
 
         // GET: api/product
         [HttpGet]
         public IActionResult GetProducts()
         {
-            var products = productContext.Products;
+            var products = productRepository.Products;
             return Ok(products);
         }
 
@@ -31,7 +29,7 @@ namespace ProductApp.Controllers
         [HttpGet("{id}")]
         public IActionResult GetProduct(int id)
         {
-            var product = productContext.Find(typeof(Product), id);
+            var product = productRepository.Find(typeof(Product), id);
             if (product == null)
             {
                 return NotFound();
@@ -48,18 +46,18 @@ namespace ProductApp.Controllers
                 return BadRequest();
             }
 
-            var existingProduct = productContext.Find(typeof(Product), id);
+            var existingProduct = productRepository.Find(typeof(Product), id);
             if (existingProduct == null)
             {
                 return NotFound();
             }
 
             // Detach the existing product (if it's being tracked)
-            productContext.Entry(existingProduct).State = EntityState.Detached;
+            productRepository.Entry(existingProduct).State = EntityState.Detached;
 
             // Now, attach the updated product instance and set the state to Modified
-            productContext.Update(updatedProduct); // Mark the new instance as Modified
-            await productContext.SaveChangesAsync();
+            productRepository.Update(updatedProduct); // Mark the new instance as Modified
+            await productRepository.SaveChangesAsync();
             return NoContent();
         }
     }

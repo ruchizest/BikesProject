@@ -14,5 +14,6 @@ namespace Bikes_App.Repositories
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Salesperson> Salespersons { get; set; }
+        public DbSet<Discount> Discounts { get; set; }
     }
 }

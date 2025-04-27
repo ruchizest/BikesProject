@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const ProductList = () => {
+const ProductList = ({ setActiveTab }) => {
   const [products, setProducts] = useState([]);
   const [customers, setCustomers] = useState([]);
   const [salespersons, setSalespersons] = useState([]);
+  const [discounts, setDiscounts] = useState([]);
   const [editingProduct, setEditingProduct] = useState(null);
   const [updatedName, setUpdatedName] = useState('');
   const [updatedManufacturer, setUpdatedManufacturer] = useState('');
@@ -38,10 +39,41 @@ const ProductList = () => {
       .catch(error => console.error('Error fetching Salespersons:', error));
   };
 
+  const fetchDiscounts = () => {
+    axios.get('http://localhost:5228/api/Discounts')
+      .then(response => setDiscounts(response.data))
+      .catch(error => console.error('Error fetching Discounts:', error));
+  };
+
+  // Check if the discount is active based on the current date
+  const getDiscountedPrice = (productID, salePrice) => {
+    const today = new Date();
+    const activeDiscount = discounts.find(discount =>
+      discount.productID === productID &&
+      new Date(discount.beginDate) <= today &&
+      new Date(discount.endDate) >= today
+    );
+
+    if (activeDiscount) {
+      const discountedPrice = salePrice * (1 - activeDiscount.discountPercentage / 100);
+      return {
+        discountedPrice: discountedPrice.toFixed(2),
+        discountPercentage: activeDiscount.discountPercentage,
+      };
+    }
+    // No active discount
+    return {
+      discountedPrice: salePrice,
+      discountPercentage: 0,
+    };
+  };
+
+
   useEffect(() => {
     fetchProducts();
     fetchCustomers();
     fetchSalespersons();
+    fetchDiscounts();
   }, []);
 
   const handleEditClick = (product) => {
@@ -97,14 +129,49 @@ const ProductList = () => {
     });
   };
 
-  const handleCheckout = () => {
+  const handleCheckout = async () => {
     if (!selectedCustomer || !selectedSalesperson) {
-      alert('Please select both a customer and salesperson before checkout.');
+      alert('Please select both a customer and salesperson before Create Sale.');
       return;
     }
-    console.log('Checkout cart:', cart, 'Customer:', selectedCustomer, 'Salesperson:', selectedSalesperson);
-    alert('Checkout: ' + JSON.stringify({ cart, customer: selectedCustomer, salesperson: selectedSalesperson }));
-  };
+  
+    try {
+      for (const productID in cart) {
+        const quantity = cart[productID];
+  
+        // 1. Create a Sale for each quantity of the product
+        for (let i = 0; i < quantity; i++) {
+          const sale = {
+            productID: parseInt(productID),
+            salespersonID: selectedSalesperson.salespersonID,
+            customerID: selectedCustomer.customerID,
+            saleDate: new Date().toISOString() // current date
+          };
+  
+          await axios.post('http://localhost:5228/api/Sales', sale);
+        }
+  
+        // 2. Update the Product QtyOnHand
+        const product = products.find(p => p.productID === parseInt(productID));
+        if (product) {
+          const updatedProduct = {
+            ...product,
+            qtyOnHand: product.qtyOnHand - quantity
+          };
+  
+          await axios.put(`http://localhost:5228/api/product/${productID}`, updatedProduct);
+        }
+      }
+  
+      setCart({});
+      fetchProducts(); // refresh products to show updated QtyOnHand
+      // After Create Sale success, move to Sales tab
+      setActiveTab('sales');
+    } catch (error) {
+      console.error('Error during Create Sale:', error);
+      alert('There was an error processing the Create Sale.');
+    }
+  };  
 
   const filteredCustomers = customers.filter(customer =>
     customer.email.toLowerCase().includes(customerSearch.toLowerCase()) ||
@@ -146,38 +213,50 @@ const ProductList = () => {
             <th>Manufacturer</th>
             <th>Style</th>
             <th>Sale Price</th>
+            <th>Discounted Price</th>
             <th>Available Quantity</th>
             <th>Actions</th>
           </tr>
         </thead>
         <tbody>
-          {products.map(product => (
-            <tr key={product.productID}>
-              <td>{product.name}</td>
-              <td>{product.manufacturer}</td>
-              <td>{product.style}</td>
-              <td>${product.salePrice}</td>
-              <td>{product.qtyOnHand}</td>
-              <td>
-                <button onClick={() => handleEditClick(product)}>Edit</button>
-                {cart[product.productID] ? (
-                  <span style={{ marginLeft: '8px' }}>
-                    <button onClick={() => handleDecrease(product.productID)}>-</button>
-                    <span style={{ margin: '0 5px' }}>{cart[product.productID]}</span>
-                    <button onClick={() => handleIncrease(product.productID)}>+</button>
-                  </span>
-                ) : (
-                  <button onClick={() => handleAddItem(product.productID)} style={{ marginLeft: '8px' }}>
-                    Add Item
-                  </button>
-                )}
-              </td>
-            </tr>
-          ))}
+          {
+            products.map(product => {
+              const discount = getDiscountedPrice(product.productID, product.salePrice);
+              return (
+                <tr key={product.productID}>
+                  <td>{product.name}</td>
+                  <td>{product.manufacturer}</td>
+                  <td>{product.style}</td>
+                  <td>${product.salePrice}</td>
+                  <td>
+                  {  
+                    <>
+                      ${discount.discountedPrice} <span>({discount.discountPercentage}% off)</span>
+                    </>
+                  }
+                </td>
+                  <td>{product.qtyOnHand}</td>
+                  <td>
+                    <button onClick={() => handleEditClick(product)}>Edit</button>
+                    {cart[product.productID] ? (
+                      <span style={{ marginLeft: '8px' }}>
+                        <button onClick={() => handleDecrease(product.productID)}>-</button>
+                        <span style={{ margin: '0 5px' }}>{cart[product.productID]}</span>
+                        <button onClick={() => handleIncrease(product.productID)}>+</button>
+                      </span>
+                    ) : (
+                      <button onClick={() => handleAddItem(product.productID)} style={{ marginLeft: '8px' }} disabled = {product.qtyOnHand<=0}>
+                        Buy
+                      </button>
+                    )}
+                  </td>
+                </tr>
+            )})
+          }
         </tbody>
       </table>
 
-      {/* Checkout Section */}
+      {/* Create Sale Section */}
       {Object.keys(cart).length > 0 && (
         <div style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
           {/* Customer Search */}
@@ -271,13 +350,13 @@ const ProductList = () => {
             )}
           </div>
 
-          {/* Checkout Button */}
+          {/* Create Sale Button */}
           <button
             onClick={handleCheckout}
             style={{ padding: '10px 30px', fontSize: '1.2rem' }}
             disabled={!selectedCustomer || !selectedSalesperson}
           >
-            Checkout
+            Create Sale
           </button>
         </div>
       )}

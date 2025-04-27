@@ -19,12 +19,12 @@ CREATE TABLE Products (
 
 INSERT INTO Products (Name, Manufacturer, Style, PurchasePrice, SalePrice, QtyOnHand, CommissionPercentage)
 VALUES
-('Mountain Explorer', 'Trek', 'Mountain', 500.00, 750.00, 10, 5.00),
-('City Cruiser', 'Giant', 'Hybrid', 300.00, 450.00, 15, 4.50),
-('Speedster 2000', 'Specialized', 'Road', 1200.00, 1600.00, 5, 6.00),
-('Trail Blazer', 'Cannondale', 'Mountain', 800.00, 1150.00, 8, 5.50),
-('Urban Commuter', 'Schwinn', 'Hybrid', 400.00, 600.00, 12, 4.00),
-('Rapid Racer', 'Bianchi', 'Road', 1500.00, 2100.00, 4, 7.00);
+('Mountain Explorer', 'Trek', 'Mountain', 500.00, 750.00, 10, 10.00),
+('City Cruiser', 'Giant', 'Hybrid', 300.00, 450.00, 15, 10.00),
+('Speedster 2000', 'Specialized', 'Road', 1200.00, 1600.00, 5, 10.00),
+('Trail Blazer', 'Cannondale', 'Mountain', 800.00, 1150.00, 8, 10.00),
+('Urban Commuter', 'Schwinn', 'Hybrid', 400.00, 600.00, 12, 10.00),
+('Rapid Racer', 'Bianchi', 'Road', 1500.00, 2100.00, 4, 10.00);
 
 
 CREATE TABLE Salespersons (
@@ -89,7 +89,7 @@ VALUES
 (6, 2, 1, '2024-04-15'); -- Jane Smith sold "Rapid Racer" to Alice Johnson again
 
 
-CREATE TABLE Discount (
+CREATE TABLE Discounts (
     DiscountID INT PRIMARY KEY IDENTITY(1,1), -- Auto-incremented discount ID
     ProductID INT NOT NULL,
     BeginDate DATE NOT NULL,
@@ -98,7 +98,7 @@ CREATE TABLE Discount (
     CONSTRAINT FK_Discount_Product FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 
-INSERT INTO Discount (ProductID, BeginDate, EndDate, DiscountPercentage)
+INSERT INTO Discounts (ProductID, BeginDate, EndDate, DiscountPercentage)
 VALUES
 (1, '2024-06-01', '2024-06-30', 10.00), -- 10% off Mountain Explorer for June
 (2, '2024-07-01', '2024-07-15', 5.00),  -- 5% off City Cruiser for first half of July

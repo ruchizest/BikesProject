@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\saledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\saledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\services\\salesdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\services\\salesdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +15,60 @@
       "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\saledetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\salespersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\salespersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\database\\bikesdb_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\database\\bikesdb_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\discountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\discountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\discountsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\discountsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\salespersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\salespersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\saledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\saledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\salespersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\salespersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +79,12 @@
       "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\salespersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\salespersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\database\\bikesdb_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\database\\bikesdb_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\models\\salesperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\models\\salesperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\repositories\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|solutionrelative:bikes_app\\repositories\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86D5E7D5-0B9E-486E-9BAB-B4A17E8CD4A6}|Bikes_App\\Bikes_App.csproj|c:\\users\\agrdh\\source\\repos\\bikesproject\\bikes_app\\bikes_app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -86,89 +102,192 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalesDetailsService.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Services\\SalesDetailsService.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Services\\SalesDetailsService.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Services\\SalesDetailsService.cs",
-              "RelativeToolTip": "Bikes_App\\Services\\SalesDetailsService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T16:16:24.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Program.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Program.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Program.cs",
-              "RelativeToolTip": "Bikes_App\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T15:06:01.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SalesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalesRepository.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\SalesRepository.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalesRepository.cs",
-              "RelativeToolTip": "Bikes_App\\Repositories\\SalesRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA7wAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T16:03:11.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SaleDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SaleDetailsController.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Controllers\\SaleDetailsController.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SaleDetailsController.cs",
-              "RelativeToolTip": "Bikes_App\\Controllers\\SaleDetailsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T16:45:09.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SaleDetails.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\SaleDetails.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Models\\SaleDetails.cs",
               "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\SaleDetails.cs",
               "RelativeToolTip": "Bikes_App\\Models\\SaleDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T16:12:21.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Sales.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Sales.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Models\\Sales.cs",
               "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Sales.cs",
               "RelativeToolTip": "Bikes_App\\Models\\Sales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T15:58:13.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "SalesDetailsService.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Services\\SalesDetailsService.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Services\\SalesDetailsService.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Services\\SalesDetailsService.cs",
+              "RelativeToolTip": "Bikes_App\\Services\\SalesDetailsService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T16:16:24.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Program.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Program.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Program.cs",
+              "RelativeToolTip": "Bikes_App\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:06:01.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BikesDB_Script.sql ",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Database\\BikesDB_Script.sql",
+              "RelativeDocumentMoniker": "Bikes_App\\Database\\BikesDB_Script.sql",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Database\\BikesDB_Script.sql",
+              "RelativeToolTip": "Bikes_App\\Database\\BikesDB_Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-27T13:28:24.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiscountsController.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\DiscountsController.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Controllers\\DiscountsController.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\DiscountsController.cs",
+              "RelativeToolTip": "Bikes_App\\Controllers\\DiscountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:12:12.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SaleDetailsRepository.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\SaleDetailsRepository.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SaleDetailsRepository.cs",
+              "RelativeToolTip": "Bikes_App\\Repositories\\SaleDetailsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T16:38:13.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Discount.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Models\\Discount.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Discount.cs",
+              "RelativeToolTip": "Bikes_App\\Models\\Discount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:08:40.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DiscountsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\DiscountsRepository.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\DiscountsRepository.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\DiscountsRepository.cs",
+              "RelativeToolTip": "Bikes_App\\Repositories\\DiscountsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:11:22.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "Bikes_App\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:24:06.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Bikes_App\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:23:01.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalesRepository.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\SalesRepository.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalesRepository.cs",
+              "RelativeToolTip": "Bikes_App\\Repositories\\SalesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T16:03:11.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Bikes_App\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:39:44.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalespersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalespersonRepository.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\SalespersonRepository.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalespersonRepository.cs",
+              "RelativeToolTip": "Bikes_App\\Repositories\\SalespersonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T13:27:01.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Models\\Product.cs",
@@ -181,32 +300,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SaleDetailsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SaleDetailsRepository.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\SaleDetailsRepository.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SaleDetailsRepository.cs",
-              "RelativeToolTip": "Bikes_App\\Repositories\\SaleDetailsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "SaleDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SaleDetailsController.cs",
+              "RelativeDocumentMoniker": "Bikes_App\\Controllers\\SaleDetailsController.cs",
+              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SaleDetailsController.cs",
+              "RelativeToolTip": "Bikes_App\\Controllers\\SaleDetailsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T16:38:13.793Z",
+              "WhenOpened": "2025-04-27T16:45:09.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BikesDB_Script.sql ",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Database\\BikesDB_Script.sql",
-              "RelativeDocumentMoniker": "Bikes_App\\Database\\BikesDB_Script.sql",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Database\\BikesDB_Script.sql",
-              "RelativeToolTip": "Bikes_App\\Database\\BikesDB_Script.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-27T13:28:24.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "SalespersonController.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\SalespersonController.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Controllers\\SalespersonController.cs",
@@ -219,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Controllers\\CustomerController.cs",
@@ -232,20 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SalespersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalespersonRepository.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\SalespersonRepository.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\SalespersonRepository.cs",
-              "RelativeToolTip": "Bikes_App\\Repositories\\SalespersonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:27:01.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Repositories\\CustomerRepository.cs",
@@ -258,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Customers.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Customers.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Models\\Customers.cs",
@@ -271,20 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductContext.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\ProductContext.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Repositories\\ProductContext.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Repositories\\ProductContext.cs",
-              "RelativeToolTip": "Bikes_App\\Repositories\\ProductContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:39:44.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Salesperson.cs",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Models\\Salesperson.cs",
               "RelativeDocumentMoniker": "Bikes_App\\Models\\Salesperson.cs",
@@ -297,20 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Bikes_App\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Bikes_App\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T15:23:01.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\agrdh\\source\\repos\\BikesProject\\Bikes_App\\Bikes_App\\appsettings.json",
               "RelativeDocumentMoniker": "Bikes_App\\appsettings.json",

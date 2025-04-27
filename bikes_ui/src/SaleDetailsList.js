@@ -30,6 +30,7 @@ const SaleDetailsList = () => {
     switch (selectedRange) {
       case 'Today':
         start = new Date();
+        start.setDate(start.getDate() - 1);
         end = new Date();
         break;
       case 'Last Week':
@@ -44,7 +45,7 @@ const SaleDetailsList = () => {
         break;
       case 'Last Year':
           start = new Date();
-          start.setMonth(start.getFullYear() - 1); // 1 year ago
+          start.setMonth(start.getMonth() - 12); // 1 year
           end = new Date();
           break;
       case 'Custom':

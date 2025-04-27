@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<ProductContext>(options =>
+builder.Services.AddDbContext<ProductRepository>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
 builder.Services.AddDbContext<SalespersonRepository>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
@@ -16,6 +16,8 @@ builder.Services.AddDbContext<CustomerRepository>(options =>
 builder.Services.AddDbContext<SalesRepository>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
 builder.Services.AddDbContext<SalesDetailsRepository>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
+builder.Services.AddDbContext<DiscountsRepository>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
 
 builder.Services.AddScoped<SalesDetailsService>();

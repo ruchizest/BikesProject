@@ -4,6 +4,7 @@ import ProductList from './ProductList';
 import SalesPersonsList from './SalesPersonsList';
 import CustomersList from './CustomersList';
 import SaleDetailsList from './SaleDetailsList';
+import Reports from './Reports';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('products'); // Default active tab is 'products'
@@ -11,13 +12,15 @@ const App = () => {
   const renderTabContent = () => {
     switch (activeTab) {
       case 'products':
-        return <ProductList />;
+        return <ProductList setActiveTab={setActiveTab} />;
       case 'salespersons':
           return <SalesPersonsList />;
       case 'customers':
          return <CustomersList />;
       case 'sales':
         return <SaleDetailsList />;
+      case 'reports':
+        return <Reports />;
       default:
         return <ProductList />;
     }
@@ -55,6 +58,12 @@ const App = () => {
           onClick={() => setActiveTab('sales')}
         >
           Sales
+        </button>
+        <button 
+          className={activeTab === 'reports' ? 'active' : ''} 
+          onClick={() => setActiveTab('reports')}
+        >
+          Reports
         </button>
       </div>
 
