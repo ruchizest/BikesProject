@@ -20,7 +20,7 @@ builder.Services.AddDbContext<SalesDetailsRepository>(options =>
 builder.Services.AddDbContext<DiscountsRepository>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BikesDB")));
 
-builder.Services.AddScoped<SalesDetailsService>();
+builder.Services.AddScoped<ISalesDetailsService,SalesDetailsService>();
 
 // Add services to the container.
 

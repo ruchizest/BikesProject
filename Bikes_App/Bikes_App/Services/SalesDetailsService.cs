@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bikes_App.Services
 {
-    public class SalesDetailsService
+    public class SalesDetailsService: ISalesDetailsService
     {
         private readonly SalesDetailsRepository _context;
 
