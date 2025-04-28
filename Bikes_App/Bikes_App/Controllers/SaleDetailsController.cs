@@ -7,9 +7,9 @@ namespace SalesApp.Controllers
     [ApiController]
     public class SaleDetailsController : ControllerBase
     {
-        private readonly SalesDetailsService _salesService;
+        private readonly ISalesDetailsService _salesService;
 
-        public SaleDetailsController(SalesDetailsService salesService)
+        public SaleDetailsController(ISalesDetailsService salesService)
         {
             _salesService = salesService;
         }

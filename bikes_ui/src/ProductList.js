@@ -86,6 +86,7 @@ const ProductList = ({ setActiveTab }) => {
     setIsModalOpen(true);
   };
 
+
   const handleUpdateProduct = () => {
     const updatedProduct = {
       ProductID: editingProduct.productID,
@@ -102,7 +103,10 @@ const ProductList = ({ setActiveTab }) => {
         setIsModalOpen(false);
         setEditingProduct(null);
       })
-      .catch(error => console.error('Error updating product:', error));
+      .catch(error => {
+        console.error('Error updating product:', error);
+        alert(error.message);
+      });
   };
 
   const handleCancelEdit = () => {
@@ -248,10 +252,10 @@ const ProductList = ({ setActiveTab }) => {
                       <button onClick={() => handleAddItem(product.productID)} style={{ marginLeft: '8px' }} disabled = {product.qtyOnHand<=0}>
                         Buy
                       </button>
-                    )}
+                    )}                   
                   </td>
                 </tr>
-            )})
+            )})           
           }
         </tbody>
       </table>
@@ -412,7 +416,9 @@ const ProductList = ({ setActiveTab }) => {
             </div>
           </div>
         </div>
+        
       )}
+    
     </div>
   );
 };
